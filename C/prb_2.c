@@ -16,8 +16,8 @@ int print_fib(unsigned int lim);
 void store_fib_num(int num_fib, unsigned int lim);
 void print_array();
 
-int main(void)
-{
+int
+main(void) {
   unsigned int lim = 0;
 
   printf("Enter lim:");
@@ -29,8 +29,8 @@ int main(void)
   return 0;
 }
 
-int print_fib(unsigned int lim)
-{
+int
+print_fib(unsigned int lim) {
   int a = 1, b = 2;
   int sum = 0;
 
@@ -49,8 +49,8 @@ int print_fib(unsigned int lim)
   return i;
 }
 
-void store_fib_num(int num_fib, unsigned int lim)
-{
+void
+store_fib_num(int num_fib, unsigned int lim) {
   printf("num_fib: %d\n", num_fib);
 
   int a = 1, b = 2;
@@ -81,7 +81,7 @@ void store_fib_num(int num_fib, unsigned int lim)
   printf("req_sum: %d\n", req_sum);
 }
 
-void print_array()
-{
+void
+print_array() {
   
 }

@@ -2,8 +2,8 @@
 
 #include <stdio.h>
 
-int main()
-{
+int
+main(void) {
   int sum = 0, num = 0;
 
   int i = 0;
